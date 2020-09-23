@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import filedialog, Text
 import os, sys, subprocess
 import time
+from PIL import ImageTk, Image
 
 apps = []
 loadFilename = '/home/jc/Resume_Projects/App_Opener_Advanced/save.txt'
@@ -15,7 +16,7 @@ def display_app_list(apps):
 
 def setscreen(loadFilename):
     print('in set screen')
-
+    
     if loadFilename == '' or os.stat(loadFilename).st_size == 0 :
         print('Using default file')
         loadFilename = '/home/jc/Resume_Projects/App_Opener_Advanced/save.txt'

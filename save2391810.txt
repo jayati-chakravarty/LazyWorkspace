@@ -1,0 +1,1 @@
+/bin/brltty,/boot/config-5.4.0-48-generic,/boot/config-5.4.0-26-generic,
